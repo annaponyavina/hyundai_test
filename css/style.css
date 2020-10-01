@@ -466,6 +466,7 @@ template {
   padding: 12px 0;
   font-size: 16px;
   line-height: 21px;
+  outline: none;
 }
 
 .request-form__item::-webkit-input-placeholder {
@@ -494,6 +495,8 @@ template {
   font-size: 16px;
   line-height: 20px;
   color: #0B3367;
+  outline: none;
+  cursor: pointer;
 }
 
 .adv-wrapper {
@@ -599,6 +602,7 @@ template {
   border: none;
   background: #032D5D;
   margin-bottom: 100px;
+  cursor: pointer;
 }
 
 .footer-wrapper {
