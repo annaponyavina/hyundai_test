@@ -1,0 +1,32 @@
+{
+  "name": "hyundai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^7.10.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-prettier": "^6.12.0",
+    "eslint-plugin-html": "^6.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.1.2"
+  },
+  "scripts": {
+    "lint": "eslint ./js",
+    "lint:fix": "eslint ./js --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/annaponyavina/hyundai_test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/annaponyavina/hyundai_test/issues"
+  },
+  "homepage": "https://github.com/annaponyavina/hyundai_test#readme"
+}
