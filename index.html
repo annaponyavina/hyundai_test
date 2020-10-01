@@ -40,16 +40,16 @@
         <div class="request-wrapper">
             <div class="container">
                 <form class="request-form">
-                    <input type="text" class="request-form__item" placeholder="First name">
-                    <input type="text" class="request-form__item" placeholder="Last name">
-                    <input type="text" class="request-form__item" placeholder="Email">
-                    <input type="text" class="request-form__item" placeholder="Mobile">
+                    <input type="text" class="request-form__item request-input" placeholder="First name" name="name">
+                    <input type="text" class="request-form__item request-input" placeholder="Last name" name="last-name">
+                    <input type="email" class="request-form__item request-input" placeholder="Email" name="email">
+                    <input type="tel" class="request-form__item request-input" placeholder="Mobile" name="phone">
                     <select class="request-form__item">
                         <option>Location</option>
                         <option>Санкт-Петербург</option>
                         <option>Казань</option>
                     </select>
-                    <button class="request-form__button">Request</button>
+                    <button type="submit" class="request-form__button">Request</button>
                 </form>
             </div>
         </div>
