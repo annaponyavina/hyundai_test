@@ -1,0 +1,33 @@
+*
+    box-sizing: border-box
+    margin: auto
+@font-face
+    font-family: 'Hyundai Sans Head KR Bold', sans-serif
+    src: url(../../fonts/HyundaiSansHeadKRBold.woff)
+@font-face
+    font-family: 'Hyundai Sans Text KR Regular', sans-serif
+    src: url(../../fonts/HyundaiSansTextKRRegular.woff)
+
+body
+    color: $text-color
+    font-family: 'Hyundai Sans Text KR Regular', sans-serif
+    position: relative
+.container
+    max-width: 1200px
+    margin: auto
+
+.block
+    &-text
+        text-align: center
+        &__title
+            font-style: normal
+            font-weight: 500
+            font-size: 50px
+            line-height: 62px
+            margin-bottom: 8px
+        &__description
+            font-style: normal
+            font-weight: normal
+            font-size: 24px
+            line-height: 30px
+            max-width: 665px

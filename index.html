@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Hyundai</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-wrapper">
+                <a href="#" class="header-logo logo">
+                    <svg class="header-logo__img" width="152" height="20">
+                        <use xlink:href="img/icons.svg#logo"></use>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </header>
+    <section class="main-block">
+        <div class="main-wrapper">
+            <video autoplay loop muted playsinline poster="video/duel.jpg" class="main-block__video">
+                <!-- <source src="video/duel.ogv" type='video/ogg; codecs="theora, vorbis"'> -->
+                <source src="video/main.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+                <!-- <source src="video/duel.webm" type='video/webm; codecs="vp8, vorbis"'> -->
+            </video>
+            <div class="container">
+                <div class="main-block__text">
+                    <h1 class="main-block__title">Hyundai Azera</h1>
+                    <span class="main-block__tagline">Redefine success.</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="request">
+        <div class="request-wrapper">
+            <div class="container">
+                <form class="request-form">
+                    <input type="text" class="request-form__item" placeholder="First name">
+                    <input type="text" class="request-form__item" placeholder="Last name">
+                    <input type="text" class="request-form__item" placeholder="Email">
+                    <input type="text" class="request-form__item" placeholder="Mobile">
+                    <select class="request-form__item">
+                        <option>Location</option>
+                        <option>Санкт-Петербург</option>
+                        <option>Казань</option>
+                    </select>
+                    <button class="request-form__button">Request</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="adv">
+        <div class="adv-wrapper">
+            <div class="container">
+                <ul class="adv-list">
+                    <li class="adv-list__item">0% admin free</li>
+                    <li class="adv-list__item">Comprehensive insurance covering the entire lease period</li>
+                    <li class="adv-list__item">Terms and conditions applicable as per the leasing company</li>
+                    <li class="adv-list__item">5 years / 100,000 Km Manufacturer Warranty</li>
+                    <li class="adv-list__item">1 year Road Side Assistance</li>
+                    <li class="adv-list__item">The monthly installment advertised includes Value Added Tax</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="gallery">
+        <div class="container">
+            <div class="block-text">
+                <h2 class="gallery__title block-text__title">Exterior</h2>
+                <p class="gallery__description block-text__description">The forward-looking front features the 'Sensures
+                    Sporty' design directionality and captures a new design vision, from the sleek, sporty side to the
+                    rear with a wide rear lamp.</p>
+            </div>
+            <div class="slider">
+                <div class="swiper-container slider-container">
+                    <div class="swiper-wrapper slider-wrapper">
+                        <div class="swiper-slide">
+                            <img src="img/slider/slide1.png" class="slider__item" alt="slider1">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/slider/slide2.png" class="slider__item" alt="slider2">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/slider/slide3.png" class="slider__item" alt="slider3">
+                        </div>
+                    </div>
+                    <div class="swiper-scrollbar"></div>
+                </div>
+                <!-- <div class="slider__scrollbar">
+                    <div class="slider__scrollbar-drag"></div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+    <section class="more-info">
+        <div class="container">
+            <div class="block-text">
+                <h2 class="more-info__title block-text__title">Learn more</h2>
+                <p class="more-info__description block-text__description">Visit Hyundai official site for get more
+                    information about Hyundai Azera</p>
+                <a href="" class="more-info__link"><button class="more-info__button block-text__button">Visit Hyundai
+                        Now</button></a>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-wrapper">
+            <div class="container">
+                <a href="#" class="footer-logo logo">
+                    <svg class="footer-logo__img" width="186.47" height="24">
+                        <use xlink:href="img/icons.svg#logo"></use>
+                    </svg>
+                </a>
+                <p class="footer-disclamer">All specifications and descriptions provided herein may be different from
+                    the actual apecifications and descriptions for the product. Hyundai is a registered trademark of
+                    Hyundai Motor Company. All rights reserved, Hyundai Motor Middle East & Africa.</p>
+            </div>
+        </div>
+    </footer>
+    <div class="thanks">
+        <div class="thanks-wrapper">
+            <div class="thanks__close">
+                <svg class="thanks__close-icon" width="20" height="20">
+                    <use xlink:href="img/icons.svg#close"></use>
+                </svg>
+            </div>
+            <p class="thanks__title">Спасибо!</p>
+            <p class="thanks__description">Ваша заявка принята.</p>
+            <p class="thanks__description">Мы свяжемся с Вами в ближайшее время.</p>
+        </div>
+    </div>
+
+
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
